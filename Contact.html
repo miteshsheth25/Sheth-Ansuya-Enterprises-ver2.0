@@ -110,14 +110,14 @@
 
         <div class="container  mt-3 mb-3 " style="background-color: #80808092;">
             
-            <div class="row d-flex justify-content-center">
+            <div class="row">
             
                 <!-- Map Section start-->
-
                 
-                <div class="col-sm-4 mt-2 mb-3"> 
-                    <div class="card Map_box" > 
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.1518403872346!2d72.83854892466887!3d19.232213197050893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b12541e7bcbf%3A0x111d6b89ffde7219!2sNew%20Link%20Rd%2C%20opp.%20MHB%20Head%20Post%20Office%2C%20Ashok%20Nagar%2C%20Vazira%2C%20Borivali%20West%2C%20Mumbai%2C%20Maharashtra%20400091!5e0!3m2!1sen!2sin!4v1731156423538!5m2!1sen!2sin" width="380" height="600" style="border-radius: 5%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="col-sm-4 p-3"> 
+                    <div class="card shadow border embed-responsive-item" > 
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.1518403872346!2d72.83854892466887!3d19.232213197050893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b12541e7bcbf%3A0x111d6b89ffde7219!2sNew%20Link%20Rd%2C%20opp.%20MHB%20Head%20Post%20Office%2C%20Ashok%20Nagar%2C%20Vazira%2C%20Borivali%20West%2C%20Mumbai%2C%20Maharashtra%20400091!5e0!3m2!1sen!2sin!4v1731156423538!5m2!1sen!2sin" width="#" height="600" style="border-radius: 5%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
                 
@@ -126,18 +126,20 @@
 
                 <!-- Contact Form and Contact box start -->
 
-                <div class="col-sm-4 mt-2 mb-2 ">
+                <div class="col-sm-4">
 
-                    <div class="card Contact_box" >
-                        <h1 class="Heading_Text_1" >Contact Us</h1>
+                    <div class="card">
+                        <div class="card-header bg-primary">
+                            <h1 class="text-center" >Contact Us</h1>
+                        </div>
 
-                        <div class="card-body">
+                        <div class="card-body bg-success p-2">
 
                             <form class="form">
             
                                 <div>  
                                     <label for="Full_Name" class="form-label">
-                                        <img src="images/profile_image.png" style="margin-right: 5px;">Full Name
+                                        <img src="images/profile_image.png">Full Name
                                     </label>
                                     <input type="text" class="form-control" id="Full_Name" name="Full_Name" placeholder="Full Name" required>
                                 </div>
@@ -167,14 +169,20 @@
                             
                             <input type="checkbox" class="form_checkbox" value="Term">                                                  
                             <label for="Term" class="form_checkbox_lable" > I Accept the Terms of Use & Privacy Policy.</label>
-                            <br>
-                            <button class="button" style="position: relative; left: 140px; padding-top: 10px;" onclick="location.href='mailto:miteshsheth25@gmail.com';" value="Submit">Submit</button>  
+                            
+                            
+
                         </div>
+
+                        <div class="card-footer bg-success text-center">
+                            <button class="btn btn-danger "  onclick="location.href='mailto:miteshsheth25@gmail.com';" value="Submit">Submit</button>  
+                        </div>
+
                     </div>
 
                 </div>
 
-                <div class="col-sm-4 mt-2 mb-2">
+                <div class="col-sm-4">
 
                     <div class="card Contact_info_box" >
                         <h1 class="Heading_Text_1" >Contact Info</h1>
