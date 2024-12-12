@@ -27,7 +27,7 @@ height: 610px;
 background-color: lightgreen;
 border: solid 1px; color:rgb(11, 12, 11);
 border-radius: 6px;
-margin-left: 5px;
+margin-left: 20px;
 }
 
 .Heading_Text_1 { color: black; 
@@ -85,12 +85,12 @@ font-weight: bolder;
 
 /* Contact Info Box with details start */
 
-.Contact_info_box {width: 370px ;
+.Contact_info_box {width: 350px ;
     height: 400px;
     background-color: lightgreen;
     border: solid 1px; color:rgb(11, 12, 11);
     border-radius: 6px;
-    margin-left: 8px;    
+        
     
     }
     
@@ -98,7 +98,7 @@ font-weight: bolder;
 text-align: center;
 padding-top:30px ;
 padding-bottom: 30px;
-margin-left: 20px;
+margin-left: 15px;
 margin-right: 20px;
 margin-top: 20px;
 border-radius: 35px;
